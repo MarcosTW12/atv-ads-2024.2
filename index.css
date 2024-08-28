@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    padding: 15px;
+    background-color: hsl(292, 30%, 40%);
+}
+
+.cabecalho h1 {
+    color: #FBfcff;
+    text-align: center;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario .field {
+    margin: 15px 0;
+}
+
+.formulario input[type="text"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(292, 30%, 40%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.formulario input[type="radio"] {
+    margin-right: 5px;
+}
+
+.formulario input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button {
+    width: 100%;
+    background-color: hsl(292, 30%, 40%);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    color: #FBfcff;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
